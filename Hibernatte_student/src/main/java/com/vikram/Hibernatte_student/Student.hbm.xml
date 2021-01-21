@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 4-Nov-2020 6:47:50 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.vikram.Hibernatte_student.Student" table="STUDENT">
+        <id name="sno" type="int">
+            <column name="SNO" />
+            <generator class="native">
+            </generator>
+        </id>
+        <property name="sname" type="java.lang.String">
+            <column name="SNAME" />
+        </property>
+        <property name="sadd" type="java.lang.String">
+            <column name="SADD" />
+        </property>
+    </class>
+</hibernate-mapping>
